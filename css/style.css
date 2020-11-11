@@ -1,0 +1,229 @@
+/*Header*/
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+body {
+    background-color:  rgb(43, 40, 40);
+    font-family: "BPG Irubaqidze", sans-serif;
+}
+.header {
+    background-color: rgb(43, 40, 40);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;    
+}
+.container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.name {
+    color:  #6ad693d7;
+    font-size: 50px;
+    font-weight: bold;   
+    margin-top: 20px; 
+    font-family: 'Marck Script', cursive;
+}
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+}
+.nav-li {
+    margin-right: 49px;
+}
+.nav-a { 
+    color: #6ad693;
+}
+.nav-a:hover {
+    color:#fff;    
+} 
+.active {
+    margin-right: 0;
+}
+/* .burger-icon {
+    color: #6ad693;
+    font-size: 22px;
+    display: none;
+} */
+/* .burger-icon:hover {
+    color:#fff;
+} */
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out ;    
+    display: none;
+}
+.menu-btn_burger {
+    width: 25px;
+    height: 3px;
+    background: #6ad693d7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #6ad693d7;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn_burger::before {
+    transform: translateY(-16px);
+}
+.menu-btn_burger::after {
+    transform: translateY(16px);
+}
+/* nav animation */
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg) translate(35px,-35px);
+}
+.menu-btn.open .menu-btn_burger::after {
+    transform: rotate(-45deg) translate(35px,35px);
+}
+/* .second-block {
+    position: absolute;
+    top: 250px;
+ } */
+
+
+
+/* second */
+
+.bg-second {
+    background-image: url(../images/cover2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        
+    width: 100%;    
+    height: 600px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 20% 0 0 20% / 95%;  
+}
+.image-text {
+    font-size: 25px;
+    color: #fff;    
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    animation: mytext 1.5s;   
+}
+@keyframes mytext {
+    from {top: 0px;}
+    to {top: 60%;}
+}
+.image-text1 {
+    font-size: 70px;
+    color:#fff;    
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    animation: mytext1 2s;  
+}
+@keyframes mytext1 {
+    from {top: 15px;}
+    to {top: 70%;}
+}
+.logoimg {
+    height: 100px;
+    margin: 0 50px 0 50px;
+    filter:drop-shadow(8px 8px 12px rgb(128, 128, 128)); 
+    position: relative;
+    animation: mymove 2.5s;
+}
+@keyframes mymove {
+    from {left: 200px;}
+    to {left: 0px;}
+}
+.wrapperbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* section 3 */
+
+.section3 {
+    background-color: rgb(43, 40, 40);
+    height: 800px;
+    padding-top: 100px;
+}
+.wrapper {
+    
+}
+.article {
+    font-size: 15px;
+    color: #6ad693;
+    text-align: center;
+}
+.article1 {
+    font-size: 50px;
+    color: #6ad693;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.article2 {
+    font-size: 22px;
+    color: #6ad693;
+    text-align: center;
+    margin-top: 40px;
+}
+.roomsfoto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.box {
+
+}
+.img {
+    width: 430px;    
+}
+.img:hover {
+    width: 480px;
+}
+.satauri1 {        
+    color: white;
+    font-size: 30px;
+
+}
+.teqsti1{    
+    color: white;
+    font-size: 60px;
+}
+.teqsti {
+    color: white;
+    font-size: 25px;
+}
+.txtdiv {
+    display: flex;  
+}
