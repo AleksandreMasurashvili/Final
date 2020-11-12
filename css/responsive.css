@@ -57,3 +57,11 @@
       width: 250px;
    }
 }
+@media (max-width: 620px) {
+   .image-text1 {
+      font-size: 30px;
+   }
+   .image-text {
+      font-size: 10px;
+   }
+}
