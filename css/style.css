@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 body {
     background-color:  rgb(43, 40, 40);
-    font-family: "BPG Irubaqidze", sans-serif;
+    font-family: "BPG Irubaqidze", sans-serif;    
 }
 .header {
     background-color: rgb(43, 40, 40);
@@ -115,7 +115,7 @@ body {
 
 
 
-/* second */
+/* main banner */
 
 .bg-second {
     background-image: url(../images/cover2.jpg);
@@ -168,28 +168,70 @@ body {
     align-items: center;
 }
 
+/* Second block */
+
+.section2 {
+    margin-top: 100px;    
+}
+.wrapper2 {
+    margin-top: 80px;
+    background-image: url('../images/yard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter:drop-shadow(8px 8px 28px rgb(157, 168, 105)); 
+}
+.sec2article {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    z-index: 2;
+    position: absolute;
+}
+.overlay {
+    background: #0000005c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 /* section 3 */
 
-.section3 {
-    background-color: rgb(43, 40, 40);
-    height: 800px;
-    padding-top: 100px;
+.section3 {    
+    margin-top: 100px;
 }
-.wrapper {
-    
-}
+
 .article {
     font-size: 15px;
     color: #6ad693;
     text-align: center;
 }
 .article1 {
-    font-size: 50px;
+    font-size: 37px;
     color: #6ad693;
     text-align: center;
     margin-top: 40px;
     font-weight: bold;
 }
+/* .article1::after {
+    content: '';
+    height: 3px;
+    width: 150px;
+    color: #6ad693;    
+    display: block;
+    margin-top: 15px;
+    margin: 0 auto;
+} */
 .article2 {
     font-size: 22px;
     color: #6ad693;
@@ -202,9 +244,9 @@ body {
     margin-top: 70px;
     flex-wrap: wrap;
 }
-.box {
-
-}
+/* .box {
+    margin-top: 50px;
+} */
 .img {
     width: 430px;    
 }
@@ -224,6 +266,69 @@ body {
     color: white;
     font-size: 25px;
 }
+.teqsti2 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 25px;
+}
 .txtdiv {
     display: flex;  
+}
+
+/* Section 4 */
+
+.section4 {
+    margin-top: 100px;
+}
+.restaurant {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.resimg {
+    width: 700px;
+    height: 450px;   
+    padding: 35px; 
+}
+.resback {    
+    background-color: #6ad693;
+    background-size: cover;    
+}
+
+/* Section 5 */
+
+.section5 {
+    margin-top: 100px;
+}
+.cafeimg {
+    background-image: url('../images/166819065.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 6 */
+
+.section6 {
+    margin-top: 100px;
+}
+.disturb {
+    background-image: url('../images/12345.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
