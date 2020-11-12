@@ -99,3 +99,8 @@
       height: 200px;
    }
 }
+@media (max-width: 750px) {
+   .disturb {
+     height: 400px; 
+   }
+}
