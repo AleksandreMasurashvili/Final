@@ -318,6 +318,7 @@ body {
 
 .section6 {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .disturb {
     background-image: url('../images/12345.jpg');
@@ -331,4 +332,106 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Footer */
+
+/* .footwrapper {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.footer {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;      
+    position: relative;
+    background-size: cover;
+}
+.footersat {
+    font-size: 30px;
+    color: #6ad693;
+    font-weight: bold;    
+}
+.footertext {
+    color: #6ad693;
+    font-weight: bold;
+    width: 280px; 
+    margin: 25px 0;   
+}
+.footwrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;    
+    width: 100%;     
+}
+.footerbox {
+    margin: 90px 0px 0 0px ;
+}
+.icons {    
+    font-size: 30px;
+    margin: 20px 180px;    
+}
+.icon {
+    color: white;
+}
+.fa-google-plus, .fa-twitter, .fa-facebook  {
+    margin: 10px;
+}
+.fa-facebook:hover {
+    color: #6ad693;
+}
+.fa-twitter:hover {
+    color: #6ad693;
+}
+.fa-google-plus:hover {
+    color: #6ad693;
+}
+.footnav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px; 
+}
+.footnav1 {
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;    
+}
+.footnavtext {
+    color: #6ad693;
+    font-weight: bold;
+}
+.footnavtext2{
+    color:#fff;
+    margin-top: 15px;
+}
+.footnavtext3{
+    color:white;    
+    font-weight: bold;
+}
+.footnavtext:hover,
+.footnavtext2:hover,
+.footnavtext3:hover {
+    color: #6ad693;
+} 
+.fa-envelope,
+.fa-mobile-alt,
+.fa-map-marker-alt {
+    color:#6ad693;
+}
+.copyright {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 180px;
 }
