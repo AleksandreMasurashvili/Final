@@ -53,9 +53,6 @@
    .image-text {
       font-size: 20px;
    }
-   .img:hover {
-      width: 250px;
-   }
 }
 @media (max-width: 653px) {
    .image-text1 {

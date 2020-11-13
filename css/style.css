@@ -236,14 +236,33 @@ body {
     margin-top: 70px;
     flex-wrap: wrap;
 }
-/* .box {
-    margin-top: 50px;
-} */
+
+.btn {
+    width: 184px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #5863F8;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn:hover {
+	background-color: rgb(133, 78, 78);
+}
+.description {
+    width: 220px;
+    margin-top: 20px;
+}
+.desp {
+    color:#6ad693;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.desp:hover {
+    color: #fff;
+}
 .img {
     width: 430px;    
-}
-.img:hover {
-    width: 480px;
 }
 .satauri1 {        
     color: white;
