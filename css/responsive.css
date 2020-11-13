@@ -104,3 +104,16 @@
      height: 400px; 
    }
 }
+@media (max-width: 1068px) {
+   .containeri {
+      flex-wrap: wrap;
+   }
+}
+@media (max-width: 848px) {
+   .map {
+      display: none;
+   }
+   .contact-wraper {
+      margin-left: 100px;
+   }
+}

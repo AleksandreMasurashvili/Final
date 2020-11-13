@@ -53,14 +53,6 @@ body {
 .active {
     margin-right: 0;
 }
-/* .burger-icon {
-    color: #6ad693;
-    font-size: 22px;
-    display: none;
-} */
-/* .burger-icon:hover {
-    color:#fff;
-} */
 .menu-btn {
     position: relative;
     display: flex;
@@ -422,3 +414,34 @@ body {
     color: #fff;
     margin-left: 180px;
 }
+
+/* Contact */
+
+.contact-wraper {
+	vertical-align: top;
+    display: flex;
+    flex-direction: column;
+	margin-right: 43px;
+}
+.section-wraper {
+	background-color: #000000;
+    margin: 26.5px 0;
+    	
+}
+.sakontaqto {
+	font-size: 20px; color: #6ad693;
+    /* margin:29px 0 10px 0; */
+    margin-top: 30px;
+}
+.contact-ul,
+.contact-li {
+    margin-top: 15px;
+}
+.containeri {	
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
