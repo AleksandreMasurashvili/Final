@@ -243,7 +243,7 @@ body {
     color: #ffffff;
     background-color: #5863F8;
     border: none;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .btn:hover {
@@ -262,7 +262,8 @@ body {
     color: #fff;
 }
 .img {
-    width: 430px;    
+    width: 430px;
+    margin-bottom: 30px;    
 }
 .satauri1 {        
     color: white;
@@ -289,7 +290,7 @@ body {
 /* Section 4 */
 
 .section4 {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .restaurant {
     display: flex;
@@ -304,12 +305,30 @@ body {
 .resback {    
     background-color: #6ad693;
     background-size: cover;    
+    margin-bottom: 50px;
+}
+.btn1 {
+    width: 184px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #5863F8;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn1:hover {
+	background-color: rgb(133, 78, 78);
 }
 
 /* Section 5 */
 
 .section5 {
     margin-top: 100px;
+}
+.cafe {
+    margin-bottom: 50px;
 }
 .cafeimg {
     background-image: url('../images/166819065.jpg');
