@@ -114,3 +114,13 @@
       margin-left: 100px;
    }
 }
+@media (max-width: 675px) {
+   .line {
+      width: 80px;
+   }
+}
+@media (max-width: 445px) {
+   .line {
+     display: none;
+   }
+}
