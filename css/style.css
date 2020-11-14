@@ -431,8 +431,7 @@ body {
 }
 .footnav1 {
     width: 230px;
-    display: flex;
-    justify-content: space-around;
+    display: flex;    
     margin-top: 25px;    
 }
 .footnavtext {
@@ -446,6 +445,7 @@ body {
 .footnavtext3{
     color:white;    
     font-weight: bold;
+    margin-left: 15px;
 }
 .footnavtext:hover,
 .footnavtext2:hover,
