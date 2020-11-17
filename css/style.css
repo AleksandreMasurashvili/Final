@@ -336,26 +336,6 @@ body {
     background-size: cover;    
     margin-bottom: 50px;
 }
-/* .button {
-    width: 184px;
-    height: 50px;
-    color: #fff;
-    border:1px solid #fff;
-    background: none;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    transition: 0.8s;
-    font-size: 17px;
-    position: relative;
-    cursor: pointer;  
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-}
-.button:hover {
-	background-color: rgb(133, 78, 78);
-} */
 .button {
     width: 184px;
     height: 50px;
@@ -391,7 +371,27 @@ body {
 .button:hover::before {
     height: 100%;
 }
-
+#content {
+    width: 600px;    
+    background: none;
+    color:#6ad693;
+    font-size: 18px;    
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-height: 18px;
+    overflow: hidden;
+    transition: max-height 0.7s;
+}
+#content.open {
+    max-height: 1000px;
+    transition: max-height 0.7s;
+}
+.contp {
+  margin-bottom: 15px;
+}
+.contp1 {
+    margin-bottom: 10px;
+}
 /* Section 5 */
 
 .section5 {
