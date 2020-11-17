@@ -9,3 +9,15 @@ menuBtn.addEventListener('click', () => {
         menuOpen = false;
     }
 })
+document.getElementById('btn').addEventListener('click', function() {
+    alert('Your Booking has Confirmed');
+});
+document.getElementById('btn2').addEventListener('click', function() {
+    alert('Your Booking has Confirmed');
+});
+document.getElementById('btn3').addEventListener('click', function() {
+    alert('Your Booking has Confirmed');
+});
+
+
+
