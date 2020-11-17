@@ -386,6 +386,21 @@ body {
     max-height: 1000px;
     transition: max-height 0.7s;
 }
+#content1 {
+    width: 600px;    
+    background: none;
+    color:#6ad693;
+    font-size: 18px;    
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-height: 18px;
+    overflow: hidden;
+    transition: max-height 0.7s;
+}
+#content1.open {
+    max-height: 1000px;
+    transition: max-height 0.7s;
+}
 .contp {
   margin-bottom: 15px;
 }

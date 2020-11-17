@@ -129,7 +129,8 @@
    }
 }
 @media (max-width: 617px) {
-   #content {
+   #content,
+   #content1 {
       width: 150px;
    }
    .contp,
