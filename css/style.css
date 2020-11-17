@@ -125,7 +125,7 @@ body {
     position: absolute;
     top: 60%;
     left: 40%;
-    animation: mytext 1.5s;   
+    animation: mytext 2.3s;   
 }
 @keyframes mytext {
     from {top: 0px;}
@@ -137,7 +137,7 @@ body {
     position: absolute;
     top: 70%;
     left: 30%;
-    animation: mytext1 2s;  
+    animation: mytext1 2.7s;  
 }
 @keyframes mytext1 {
     from {top: 15px;}
@@ -148,7 +148,7 @@ body {
     margin: 0 50px 0 50px;
     filter:drop-shadow(8px 8px 12px rgb(128, 128, 128)); 
     position: relative;
-    animation: mymove 2.5s;
+    animation: mymove 2.8s;
 }
 @keyframes mymove {
     from {left: 200px;}
@@ -283,6 +283,7 @@ body {
     color:#6ad693;
     margin-top: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 .desp:hover {
     color: #fff;
