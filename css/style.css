@@ -260,6 +260,9 @@ body {
     position: relative;
     cursor: pointer;    
 }
+.btn:hover {
+    color: #6ad693;
+}
 .btn::before {
     content: "";
     position: absolute;
@@ -275,6 +278,7 @@ body {
 .btn:hover::before {
     height: 100%;
 } 
+
 .description {
     width: 220px;
     margin-top: 20px;
