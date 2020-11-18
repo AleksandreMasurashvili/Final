@@ -553,7 +553,44 @@ body {
     color: #fff;
     margin-left: 180px;
 }
+--------------------------
 
+/* About */
+
+.second {    
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    
+}
+.secdiv {
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+}
+.secimg {
+    width: 400px;    
+}
+.secpara {
+   
+}
+.secfoto {
+    width: 400px;    
+}
+.sectext {
+    font-size: 40px;
+    color: rgb(0, 46, 250);
+    font-weight: bold;
+    width: 500px;
+       
+}
+.secteqsti {
+    font-size: 15px;
+    color: rgb(236, 231, 231);
+    width: 500px;
+    font-weight: bold;
+    margin-top: 30px;
+}
 /* Contact */
 
 .contact-wraper {
