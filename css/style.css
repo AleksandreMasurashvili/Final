@@ -578,6 +578,9 @@ body {
     font-weight: bold;
     width: 500px;       
 }
+.womlogo {
+    width: 200px;
+}
 .secpara {
     flex-wrap: wrap;
 }
@@ -658,11 +661,26 @@ body {
     margin-top: 100px;
     flex-wrap: wrap;
 }
+.forklogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    background-color: #43c474;
+    border-radius: 50%;
+    height: 170px;    
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.resheadimg {
+    width: 150px;
+    border-radius: 50%;        
+}
 .ressat {
     margin-bottom: 80px;
     font-size: 25px;
     color: #fff;
-    font-weight: bold;
+    font-weight: bold;    
 }
 .ressp,
 .ressp1,
@@ -670,7 +688,7 @@ body {
     font-size: 18px;
     width: 700px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     letter-spacing:1px;
 }
 .ressdivimg {

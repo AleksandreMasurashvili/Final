@@ -114,6 +114,9 @@
    .containeri {
       flex-wrap: wrap;
    }
+   .womlogo {
+      display: none;
+   }
 }
 @media (max-width: 848px) {
    .map {
