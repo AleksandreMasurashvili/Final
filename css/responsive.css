@@ -87,7 +87,12 @@
    }
    .section4 {
       width: auto;
-   }      
+   }
+   .ressp,
+   .ressp1,
+   .ressp2  {
+      width: 200px;
+   }    
 }
 @media (max-width: 420px) {
    .resback,

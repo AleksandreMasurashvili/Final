@@ -553,7 +553,7 @@ body {
     color: #fff;
     margin-left: 180px;
 }
---------------------------
+
 
 /* About */
 
@@ -604,6 +604,7 @@ body {
     color: #6ad693;
     width: 420px;    
     margin-top: 30px;
+    letter-spacing:1px;
 }
 .hostdiv {
     display: flex;
@@ -615,7 +616,7 @@ body {
 }
 .hostf {
     width: 130px;
-    border-radius: 50%;
+    border-radius: 45%;
     margin-left: 150px;
 }
 .hosted {
@@ -623,17 +624,19 @@ body {
     color: #fff;
     font-weight: bold;
     width: 500px;  
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 .abouthost {
     font-size: 18px;
     color: #6ad693;
     width: 820px;    
     margin-top: 30px;
+    letter-spacing:1px;
 }
 .about2,
 .about3 {
     margin-top: 20px;
+    letter-spacing:1px;
 }
 .about3 {
     color: #fff;
@@ -647,8 +650,56 @@ body {
 
 /* Restaurant */
 
-
-
+.ressecdiv {
+    margin: 0 auto;
+    max-width: 1270px;
+    width: 100%;
+    color: #6ad693;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.ressat {
+    margin-bottom: 80px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.ressp,
+.ressp1,
+.ressp2 {
+    font-size: 18px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    letter-spacing:1px;
+}
+.ressdivimg {
+    display: flex;
+    justify-content: center;
+}
+.ressimg {
+    max-width: 850px;
+    width: 100%;
+    height: ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ressecdiv3 {
+    margin: 0 auto;
+    max-width: 1270px;
+    width: 100%;
+    color: #6ad693;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.ressat3 {
+    margin-bottom: 80px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
 /* Contact */
 
 .contact-wraper {
