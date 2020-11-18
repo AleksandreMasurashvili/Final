@@ -557,40 +557,95 @@ body {
 
 /* About */
 
-.second {    
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+.second { 
     
 }
 .secdiv {
     display: flex;
     justify-content: space-around;    
     align-items: center;
+    flex-wrap: wrap;
 }
 .secimg {
     width: 400px;    
-}
-.secpara {
-   
 }
 .secfoto {
     width: 400px;    
 }
 .sectext {
     font-size: 40px;
-    color: rgb(0, 46, 250);
+    color: #fff;
     font-weight: bold;
-    width: 500px;
-       
+    width: 500px;       
 }
-.secteqsti {
-    font-size: 15px;
-    color: rgb(236, 231, 231);
-    width: 500px;
-    font-weight: bold;
+.secpara {
+    flex-wrap: wrap;
+}
+.secteqsti,
+.secp1,
+.secp2 {
+    font-size: 18px;
+    color: #6ad693;
+    width: 500px;    
     margin-top: 30px;
 }
+.thdiv {
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.thimg {
+    width: 400px;
+}
+.thteqsti {
+    font-size: 18px;
+    color: #6ad693;
+    width: 420px;    
+    margin-top: 30px;
+}
+.hostdiv {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.hostf {
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.hosted {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    width: 500px;  
+    margin-bottom: 80px;
+}
+.abouthost {
+    font-size: 18px;
+    color: #6ad693;
+    width: 820px;    
+    margin-top: 30px;
+}
+.about2,
+.about3 {
+    margin-top: 20px;
+}
+.about3 {
+    color: #fff;
+}
+.hostname {
+    font-size: 15px;
+    color: #6ad693;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+
 /* Contact */
 
 .contact-wraper {

@@ -141,3 +141,51 @@
       margin: 0 auto;
    }
 }
+@media (max-width: 919px) {
+   .abouthost,
+   .thteqsti,
+   .secp2,
+   .sextext,
+   .secimg,
+   .secfoto,
+   .thimg {
+      width: 250px;
+      flex-wrap: wrap;
+   }
+   .sectext,
+   .hosted {
+      font-size: 18px;
+   }
+}
+@media (max-width: 790px) {
+   .abouthost,
+   .secteqsti,
+   .thteqsti,
+   .secp1,
+   .secp2,
+   .sextext,
+   .secimg,
+   .secfoto,
+   .thimg,
+   {
+      width: 150px;      
+   }
+   .sectext,
+   .hosted {
+      font-size: 15px;
+   }
+   .secpara {
+      margin-top: 50px;
+   }
+}
+@media (max-width: 521px) {
+   .secteqsti,   
+   .secp1,
+   .secp2,
+   .sectext,
+   .hosted {
+      font-size: 10px;
+      width: 200px;
+      margin: 0 auto;
+   }
+}
