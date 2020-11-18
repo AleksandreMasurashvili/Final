@@ -35,17 +35,17 @@ button.onclick = function() {
 };
 
 var content1 = document.getElementById("content1");
-var button = document.getElementById("read-more1");
+var button1 = document.getElementById("read-more1");
 
-button.onclick = function() {
+button1.onclick = function() {
     if(content1.className == "open"){
         //shrink the box
         content1.className = "";
-        button.innerHTML = "Read More"; 
+        button1.innerHTML = "Read More"; 
     } else  {
         //expand the box
         content1.className = "open"; 
-        button.innerHTML = "Read Less";  
+        button1.innerHTML = "Read Less";  
     }
 };
 
