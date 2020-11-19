@@ -805,6 +805,7 @@ body {
     border-radius: 5px;
     animation: mymoves 2.8s 1;
     position: relative;
+    animation-delay: 1s;
 }
 @keyframes mymoves {
     from {left: 250px;}
