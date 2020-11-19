@@ -697,8 +697,7 @@ body {
 }
 .ressimg {
     max-width: 850px;
-    width: 100%;
-    height: ;
+    width: 100%;    
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -718,6 +717,159 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* Bookings */
+
+.wrapper22 {
+    margin-top: 80px;
+    background-image: url('../images/room1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.sec22article {
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    z-index: 2;
+    position: absolute;
+    font-weight: bold;
+}
+.overlay2 {
+    background: #0000005c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.booksat {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.booktext {
+    font-size: 20px;
+    color: #fff;
+}
+.bookboximg {
+    width: 300px;    
+}
+.bumbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.boxx1 {
+    width: 300px;
+    height: 30px;    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxxp {
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.boxxp:hover {
+    color:#6ad693 ;
+}
+.bookslide {
+    margin-top: 150px;    
+}
+.sec4div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.divslide {
+    width: 800px;
+    height: 250px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    animation: mymoves 2.8s 1;
+    position: relative;
+}
+@keyframes mymoves {
+    from {left: 250px;}
+    to {left: 0px;}          
+}
+.divslide1 {
+    width: 800px;
+    height: 250px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    animation: mymovess 2.8s 1;
+    position: relative;
+}
+@keyframes mymovess {
+    from {right: 250px;}
+    to {right: 0px;}          
+}
+.divslide2 {
+    margin-left: 35px;
+}
+.slideimg {
+    width: 200px;
+    height: 150px;    
+}
+.slidesat {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.slidetext {
+    width: 480px;
+    font-size: 14px;
+    color: #6ad693;
+    margin-bottom: 10px;
+}
+.slidetext2 {
+    font-size: 16px;
+    color: #fff;
+}
+.price {
+    font-size: 20px;
+    margin-top: 17px;
+    color: #6ad693;
+    font-weight: bold;
+}
+.kno {
+    margin-left: 250px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border:1px solid #fff;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.kno:hover {
+    color: red;
+    background-color: black;
+}
+
 /* Contact */
 
 .contact-wraper {

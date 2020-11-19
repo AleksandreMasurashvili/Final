@@ -67,6 +67,10 @@
       font-size: 15px;
       width: 150px;
    }
+   .bookboximg,
+   .boxx1 {
+      width: 100px;
+   }
 }
 @media (max-width: 1380px) {
    .section4 {
@@ -103,6 +107,9 @@
    .dvd {
       width: 200px;
       height: 25px;
+   }
+   .kno {
+      margin-left: 0;
    }
 }
 @media (max-width: 750px) {
@@ -195,5 +202,29 @@
       font-size: 10px;
       width: 200px;
       margin: 0 auto;
+   }
+}
+@media (max-width: 920px) {
+   .bookbox {
+      margin-top: 30px;
+   }
+   .bookslide {
+      width: 200px;
+      margin: 0 auto;
+   }
+}
+@media (max-width: 741px) {
+   .slidesat,
+   .slidetext,
+   .slidetext2,
+   .price {
+      width: 200px;
+   }
+   .divslide,
+   .divslide1 {
+      border: none;
+   }
+   .slideimg {
+      display: none;
    }
 }
