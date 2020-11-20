@@ -100,12 +100,6 @@ body {
 .menu-btn.open .menu-btn_burger::after {
     transform: rotate(-45deg) translate(35px,35px);
 }
-/* .second-block {
-    position: absolute;
-    top: 250px;
- } */
-
-
 
 /* main banner */
 
@@ -125,7 +119,7 @@ body {
     position: absolute;
     top: 60%;
     left: 40%;
-    animation: mytext 2.3s;   
+    animation: mytext 2.3s; 
 }
 @keyframes mytext {
     from {top: 0px;}
@@ -557,8 +551,7 @@ body {
 
 /* About */
 
-.second { 
-    
+.second {    
 }
 .secdiv {
     display: flex;
@@ -670,17 +663,31 @@ body {
     border-radius: 50%;
     height: 170px;    
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 100px;    
+    transition: width 2s, height 4s;
 }
 .resheadimg {
     width: 150px;
-    border-radius: 50%;        
+    height: 150px;
+    border-radius: 50%;    
+    animation: myfork 3s 1;
+}
+@keyframes myfork {
+    from {
+        transform: scale(2,2);
+    }
+    to {
+        transform: scale(1,1);
+    }
 }
 .ressat {
     margin-bottom: 80px;
     font-size: 25px;
     color: #fff;
-    font-weight: bold;    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 .ressp,
 .ressp1,
@@ -787,7 +794,8 @@ body {
     color:#6ad693 ;
 }
 .bookslide {
-    margin-top: 150px;    
+    margin-top: 150px;
+    margin-bottom: 150px;    
 }
 .sec4div {
     display: flex;
@@ -805,7 +813,7 @@ body {
     border-radius: 5px;
     animation: mymoves 2.8s 1;
     position: relative;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 @keyframes mymoves {
     from {left: 250px;}
@@ -822,6 +830,7 @@ body {
     border-radius: 5px;
     animation: mymovess 2.8s 1;
     position: relative;
+    animation-delay: 2s;
 }
 @keyframes mymovess {
     from {right: 250px;}
@@ -881,8 +890,7 @@ body {
 }
 .section-wraper {
 	background-color: #000000;
-    margin-bottom: 150px;
-    	
+    margin-bottom: 150px;    	
 }
 .sakontaqto {
 	font-size: 20px; color: #6ad693;
