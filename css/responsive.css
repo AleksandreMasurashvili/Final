@@ -117,6 +117,13 @@
       margin-top: 30px;
    }
 }
+@media (max-width: 553px) {
+   .copyright,
+   .fa-google-plus,
+   .fa-twitter {
+      display: none;
+   }
+}
 @media (max-width: 766px) {
    .thpara {
       margin-bottom: 30px;

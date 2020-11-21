@@ -286,15 +286,6 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 }
-/* .article1::after {
-    content: '';
-    height: 3px;
-    width: 150px;
-    color: #6ad693;    
-    display: block;
-    margin-top: 15px;
-    margin: 0 auto;
-} */
 .article2 {
     font-size: 22px;
     color: #6ad693;
@@ -686,8 +677,7 @@ body {
 
 /* About */
 
-.second {    
-}
+
 .secdiv {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -713,7 +703,7 @@ body {
     width: 500px;       
 }
 .womlogo {
-    width: 200px;
+    width: 150px;    
 }
 .secpara {
     -ms-flex-wrap: wrap;
